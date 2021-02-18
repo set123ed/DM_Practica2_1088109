@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{830B5304-5811-4309-A026-9C13FC7C37B7}</ProjectGuid>
+    <ProjectGuid>{E0A7D3A7-1552-4C54-BBA1-BA257B49B9CF}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DMPractica2.iOS</RootNamespace>
+    <RootNamespace>Practica2.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>DMPractica2.iOS</AssemblyName>
+    <AssemblyName>Practica2.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -128,9 +128,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\DMPractica2\DMPractica2.csproj">
-      <Project>{D4CA7151-1D81-45A8-A263-E6C4034B9759}</Project>
-      <Name>DMPractica2</Name>
+    <ProjectReference Include="..\Practica2\Practica2.csproj">
+      <Project>{137DB93F-3C94-4946-BFDA-E8773C9C63D9}</Project>
+      <Name>Practica2</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

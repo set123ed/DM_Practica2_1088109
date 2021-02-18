@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace DMPractica2
+namespace Practica2
 {
     public partial class App : Application
     {

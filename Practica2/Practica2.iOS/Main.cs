@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace DMPractica2.iOS
+namespace Practica2.iOS
 {
     public class Application
     {
