@@ -10,7 +10,7 @@ namespace Practica2
         {
             InitializeComponent();
 
-            MainPage = new MyPage();
+            MainPage = new MyTabbedPage();
         }
 
         protected override void OnStart()
