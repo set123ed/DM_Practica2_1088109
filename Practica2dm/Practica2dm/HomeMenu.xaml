@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica2dm.HomeMenu"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true">
+
+    <Grid RowDefinitions="auto,auto,auto,auto,auto,*,*,*" ColumnDefinitions="*,*" BackgroundColor="#faf6f2" >
+        <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Bienvenido al portal de intec" FontFamily="Lobster" FontSize="30"/>
+        <Label Text="bienvenido al proyecto de intec movil donde podran encontrar todos los materiales necesarios para su carrera en nuestra universidad"
+               Grid.Row="2" Grid.ColumnSpan="2" FontFamily="Arial" FontSize="15"/>
+        <Image Grid.Row="3" Grid.ColumnSpan="2" Source="joseintec1.jpg" Margin="5" />
+        <Label Text="On the go" Grid.Row="4" Grid.Column="0" FontSize="20" FontAttributes="Bold"/>
+        <Button Text="After work" TextColor="#a4aba6" BackgroundColor="#e8f0e5" Grid.Row="5" Grid.Column="0" Margin="5" />
+        <Button Text="Good Morning" TextColor="White" BackgroundColor="#f9c698" Grid.Row="6" Grid.Column="0" Margin="5"/>
+        <Button Text="Quick Break" TextColor="#54777b" BackgroundColor="#9bd9d8" Grid.Row="7" Grid.Column="0" Margin="5"/>
+         <Button Text="Tough Day" TextColor="#cceef8" BackgroundColor="#6eb0bc" Grid.Row="5" Grid.Column="1"  Margin="5"/>
+        <Button Text="Sleep" TextColor="#818284" BackgroundColor="#cecfd1" Grid.Row="6" Grid.Column="1" Margin="5" />
+        <Button Text="Big Event" TextColor="DarkRed" BackgroundColor="#f7ab99" Grid.Row="7" Grid.Column="1"  Margin="5"/>
+    </Grid>
+    <ContentPage.Content>
+    </ContentPage.Content>
+</ContentPage>

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+[assembly: ExportFont("Samantha.ttf")]
+[assembly: ExportFont("Samantha.ttf", Alias = "Samantha")]
 namespace Practica2dm
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

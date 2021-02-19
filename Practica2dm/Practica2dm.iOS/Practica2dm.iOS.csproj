@@ -137,5 +137,9 @@
     <BundleResource Include="Resources\home2.png" />
     <BundleResource Include="Resources\intec.png" />
     <BundleResource Include="Resources\user.png" />
+    <BundleResource Include="Resources\joseintec1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Samantha Demo.ttf" />
   </ItemGroup>
 </Project>
