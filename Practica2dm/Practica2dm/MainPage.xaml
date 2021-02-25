@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica2dm.MainPage">
-
+    <ScrollView>
     <StackLayout VerticalOptions="Center">
         <Image Source="intec" VerticalOptions="Center" HorizontalOptions="Center" />
          <Entry Placeholder="Name" VerticalOptions="Center" x:Name="Name" />
@@ -11,7 +11,7 @@
          <Entry Placeholder="Comfirm Password" VerticalOptions="Center" IsPassword="True" x:Name="Password2"/>
         <Button Text="Register" TextColor="White" BackgroundColor="Red" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
          <Label x:Name="outputLabel"/>
-
     </StackLayout>
+        </ScrollView>
 
 </ContentPage>
