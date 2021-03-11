@@ -4,7 +4,7 @@
             xmlns:local="clr-namespace:Practica2dm"
             x:Class="Practica2dm.Home">
     <!--Pages can be added as references or inline-->
-    <local:HomeMenuPage Title="Home" IconImageSource="user"/>
+    <local:HomeMenu Title="Home" IconImageSource="user"/>
     <ContentPage Title="Option 1" IconImageSource="home2" />
     <ContentPage Title="Option 2" IconImageSource="home2"/>
 </TabbedPage>

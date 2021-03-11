@@ -4,6 +4,6 @@
             xmlns:local="clr-namespace:Practica2dm"
             x:Class="Practica2dm.MyTabbedPage">
     <!--Pages can be added as references or inline-->
-    <local:MyPage Title="Login" IconImageSource="user"/>
+    <local:SignUpPage Title="Login" IconImageSource="user"/>
     <ContentPage Title="Home" IconImageSource="home2"/>
 </TabbedPage>
